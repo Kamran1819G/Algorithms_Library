@@ -9,6 +9,8 @@
 - Pick a random element as a pivot.
 - Pick median as the pivot.
 
+![image](https://user-images.githubusercontent.com/72748315/208669618-38710208-b6bf-4ce2-930e-9a7f2d57287a.png)
+
 ### Time Complexity:
 
 <table> 

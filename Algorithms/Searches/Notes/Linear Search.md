@@ -2,6 +2,8 @@
 
 #### `Linear Search is defined as a sequential search algorithm` that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set. It is the easiest searching algorithm.
 
+![image](https://user-images.githubusercontent.com/72748315/208666345-f3ddd3ba-b729-4c75-a411-daeea71a8166.png)
+
 <table>
     <tr>
         <th>Time Complexity:<th>

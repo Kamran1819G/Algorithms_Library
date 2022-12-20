@@ -49,3 +49,16 @@
         <td>θ(1)</td>
     </tr>
 </table>
+
+<a style="float:right; margin-top: 30px"
+ href='#'>
+<button>Next</button>
+</a>
+<a style="float: right; margin-top:30px"
+ href='../../README.md'>
+<button>Return to Homepage</button>
+</a>
+<a style="float:right; margin-top: 30px"
+ href='./Stack.md'>
+<button>Previous</button>
+</a>

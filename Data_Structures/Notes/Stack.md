@@ -22,3 +22,16 @@
 - Moving back/forward through browser history
 - Backtracking algorithms (maze, file directories)
 - Calling functions (call stack)
+
+<a style="float:right; margin-top: 30px"
+ href='./Queue.md'>
+<button>Next</button>
+</a>
+<a style="float: right; margin-top:30px"
+ href='../../README.md'>
+<button>Return to Homepage</button>
+</a>
+<a style="float:right; margin-top: 30px"
+ href='./Circular Linked List.md'>
+<button>Previous</button>
+</a>

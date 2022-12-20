@@ -10,3 +10,16 @@
         <th> 0 ( log n )<th>
     <tr>
 </table>
+
+<a style="float:right; margin-top: 30px"
+ href='#'>
+<button>Next</button>
+</a>
+<a style="float: right; margin-top:30px"
+ href='../../../README.md'>
+<button>Return to Homepage</button>
+</a>
+<a style="float:right; margin-top: 30px"
+ href='./Linear Search.md'>
+<button>Previous</button>
+</a>

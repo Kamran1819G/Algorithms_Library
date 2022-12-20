@@ -1,6 +1,6 @@
-# <b>Algorithms Library 📚</b>
+# **Algorithms Library 📚**
 
-# <b>Data Structure & Algorithms 📈</b>
+# **Data Structure & Algorithms 📈\*\***
 
 ### What is Data Structure?<br>
 
@@ -11,15 +11,17 @@
 
 - An algorithm is a collection of steps to solve a particular problem.
 
-## <b> Characteristics of a Data Structure</b>
+## ** Characteristics of a Data Structure**
 
-<b>Correctness</b> − Data structure implementation should implement its interface correctly.
+**Correctness** − Data structure implementation should implement its interface correctly.
 </br>
-<b>Time Complexity</b> − Running time or the execution time of operations of data structure must be as small as possible.
-</br>
-<b>Space Complexity</b> − Memory usage of a data structure operation should be as little as possible.
 
-## <b>Index</b>
+**Time Complexity** − Running time or the execution time of operations of data structure must be as small as possible.
+</br>
+
+**Space Complexity** − Memory usage of a data structure operation should be as little as possible.
+
+## **Index**
 
 - [Data Structures]()
 
@@ -47,4 +49,4 @@
     - [Merge Sort](./Algorithms/Sorts/Notes/Merge%20Sort.md)
     - [Shell Sort](./Algorithms/Sorts/Notes/Shell%20Sort.md)
 
-### <b>This repository is for educational purposes 🏫👨🏻‍🎓.</b>
+### **This repository is for educational purposes 🏫👨🏻‍🎓.**

@@ -4,6 +4,8 @@
 
 #### After Comparing element to the left shift elements to the right to make room to insert a value.
 
+![image](https://user-images.githubusercontent.com/72748315/208669378-c51f809a-c30f-484e-ba24-19f93384ee26.png)
+
 ### Time Complexity
 
 <table>

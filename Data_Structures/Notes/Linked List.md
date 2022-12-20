@@ -23,13 +23,13 @@
 
 <a style="float:right; margin-top: 30px"
  href='./Singly Linked List.md'>
-<button>Next</button>
+<button>Next ⏭</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../README.md'>
-<button>Return to Homepage</button>
+<button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
  href='./3D-Array.md'>
-<button>Previous</button>
+<button>⏮ Previous</button>
 </a>

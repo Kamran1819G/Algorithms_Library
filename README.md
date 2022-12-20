@@ -1,6 +1,6 @@
 # **Algorithms Library 📚**
 
-# **Data Structure & Algorithms 📈\*\***
+# **Data Structure & Algorithms 📈**
 
 ### What is Data Structure?<br>
 
@@ -11,7 +11,7 @@
 
 - An algorithm is a collection of steps to solve a particular problem.
 
-## ** Characteristics of a Data Structure**
+## **Characteristics of a Data Structure**
 
 **Correctness** − Data structure implementation should implement its interface correctly.
 </br>
@@ -33,8 +33,8 @@
     - [Singly Linked List](./Data_Structures/Notes/Singly%20Linked%20List.md)
     - [Doubly Linked List](./Data_Structures/Notes/Doubly%20Linked%20List.md)
     - [Circular Linked List]()
-  - [Queue](./Data_Structures/Notes/Queue.md)
   - [Stack](./Data_Structures/Notes/Stack.md)
+  - [Queue](./Data_Structures/Notes/Queue.md)
 
 - [Algorithms](./Algorithms)
 

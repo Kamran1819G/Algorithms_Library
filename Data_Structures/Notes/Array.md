@@ -11,14 +11,14 @@
 ![image](https://user-images.githubusercontent.com/72748315/208663718-89de4fa5-1ae2-4442-a2ce-99a459cd2704.png)
 
 <a style="float:right; margin-top: 30px"
- href='./Multi-Dimensional  Array.md'>
-<button>Next ⏭</button>
+ href='#'>
+<button>⏮ Previous</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../README.md'>
 <button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
- href='#'>
-<button>⏮ Previous</button>
+ href='./Multi-Dimensional  Array.md'>
+<button>Next ⏭</button>
 </a>

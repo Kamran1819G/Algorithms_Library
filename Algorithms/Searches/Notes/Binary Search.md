@@ -12,14 +12,14 @@
 </table>
 
 <a style="float:right; margin-top: 30px"
- href='#'>
-<button>Next ⏭</button>
+ href='./Linear Search.md'>
+<button>⏮ Previous</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../../README.md'>
 <button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
- href='./Linear Search.md'>
-<button>⏮ Previous</button>
+ href='#'>
+<button>Next ⏭</button>
 </a>

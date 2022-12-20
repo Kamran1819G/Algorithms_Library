@@ -24,14 +24,14 @@
 - Calling functions (call stack)
 
 <a style="float:right; margin-top: 30px"
- href='./Queue.md'>
-<button>Next ⏭</button>
+ href='./Circular Linked List.md'>
+<button>⏮ Previous</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../README.md'>
 <button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
- href='./Circular Linked List.md'>
-<button>⏮ Previous</button>
+ href='./Queue.md'>
+<button>Next ⏭</button>
 </a>

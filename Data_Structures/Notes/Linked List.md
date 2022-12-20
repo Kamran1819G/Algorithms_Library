@@ -22,14 +22,14 @@
 - Music Playlist
 
 <a style="float:right; margin-top: 30px"
- href='./Singly Linked List.md'>
-<button>Next ⏭</button>
+ href='./3D-Array.md'>
+<button>⏮ Previous</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../README.md'>
 <button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
- href='./3D-Array.md'>
-<button>⏮ Previous</button>
+ href='./Singly Linked List.md'>
+<button>Next ⏭</button>
 </a>

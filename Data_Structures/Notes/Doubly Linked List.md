@@ -45,14 +45,14 @@ Disadvantages over singly linked list
     </tr>
 </table>
 <a style="float:right; margin-top: 30px"
- href='./Circular Linked List.md'>
-<button>Next ⏭</button>
+ href='./Singly Linked List.md'>
+<button>⏮ Previous</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../README.md'>
 <button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
- href='./Singly Linked List.md'>
-<button>⏮ Previous</button>
+ href='./Circular Linked List.md'>
+<button>Next ⏭</button>
 </a>

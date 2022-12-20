@@ -43,14 +43,14 @@
 </table>
 
 <a style="float:right; margin-top: 30px"
- href='./Doubly Linked List.md'>
-<button>Next ⏭</button>
+ href='./Linked List.md'>
+<button>⏮ Previous</button>
 </a>
 <a style="float: right; margin-top:30px"
  href='../../README.md'>
 <button>Return to Homepage 🏠</button>
 </a>
 <a style="float:right; margin-top: 30px"
- href='./Linked List.md'>
-<button>⏮ Previous</button>
+ href='./Doubly Linked List.md'>
+<button>Next ⏭</button>
 </a>

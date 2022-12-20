@@ -4,6 +4,8 @@
 
 #### We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end. The element, which is first pushed into the order, the operation is first performed on that.
 
+![image](https://user-images.githubusercontent.com/72748315/208666067-ad2e6ae1-0a3b-4376-b28e-60fd6b495d83.png)
+
 ### Standard Queue Operations:
 
 - `enqueue()` − add (store) an item to the queue.

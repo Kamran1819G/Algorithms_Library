@@ -2,6 +2,8 @@
 
 #### A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
 
+![image](https://user-images.githubusercontent.com/72748315/208665550-626f908d-c87f-43d3-93c4-79ca23461fba.png)
+
 #### In simple words, a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
 
 ### Representation of Linked Lists:

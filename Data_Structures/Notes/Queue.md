@@ -1,4 +1,4 @@
-# Stack
+# Queue
 
 #### A queue is defined as a linear data structure that is open at both ends and the operations are performed in `First In First Out (FIFO) order`.
 
@@ -22,8 +22,28 @@
 
 <table>
     <tr>
-        <th><th>
+        <th>&nbsp;</th>
         <th>Average</th>
         <th>Worst</th>
+    </tr>
+    <tr>
+        <td>Access</td>
+        <td>θ(n)</td>
+        <td>θ(n)</td>
+    </tr>
+    <tr>
+        <td>Search</td>
+        <td>θ(n)</td>
+        <td>θ(n)</td>
+    </tr>
+    <tr>
+        <td>Insertion</td>
+        <td>θ(1)</td>
+        <td>θ(1)</td>
+    </tr>
+    <tr>
+        <td>Deletion</td>
+        <td>θ(1)</td>
+        <td>θ(1)</td>
     </tr>
 </table>

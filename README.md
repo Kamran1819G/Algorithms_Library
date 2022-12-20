@@ -16,4 +16,32 @@
 </br>
 <b>Space Complexity</b> − Memory usage of a data structure operation should be as little as possible.
 
+## <b>Index</b>
+
+- Data Structures
+
+  - Array
+    - Multi-Dimensional array
+    - 2D-Array
+    - 3D-Array
+  - Linked List
+    - Singly Linked List
+    - Doubly Linked List
+    - Circular Linked List
+  - Queue
+  - Stack
+
+- Algorithms
+
+  - Searching Alogrithms
+    - Linear Search
+    - Binary Search
+  - Sorting Algorithms
+    - Bubble Sort
+    - Selection Sort
+    - Insertion Sort
+    - Quick Sort
+    - Merge Sort
+    - Shell Sort
+
 ### <b>This repository is for educational purposes 🏫👨🏻‍🎓.</b>

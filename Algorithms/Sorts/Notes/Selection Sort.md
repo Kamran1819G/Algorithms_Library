@@ -8,6 +8,7 @@
 - The remaining subarray was unsorted.
 
 #### In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+![image](https://user-images.githubusercontent.com/72748315/208668604-39ba00c9-e820-4871-8ea4-5797b8389889.png)
 
 <table>
     <tr>

@@ -1,5 +1,3 @@
-package pratice_coding;
-
 public class SinglyLinkedList {
 	public class Node{
 		int data;
@@ -25,19 +23,33 @@ public class SinglyLinkedList {
 		}
 	}
 	
-	public void display() {
-		Node current = head;
-		if (head == null) {
-			System.out.println("list is empty");
-			return;
+	public void insertAtPosition(int position, int data) {
+		if (position < 1)
+		    System.out.print("Invalid position");
+		if (position == 1) {
+		    Node newNode = new Node(data);
+		    newNode.next = head;
+		    head = newNode;  
+		}else {
+		    Node newNode= new Node(data);
+		    Node current = head;
+		    for(int i = 1; i < position-1; i++) {
+		      if(current != null) {
+		        current = current.next;
+		      }
+		    }
+		    if(current != null) {
+		        newNode.next = current.next;
+		        current.next = newNode;  
+		    }
 		}
-		while(current != null) {
-			System.out.println(current.data +" ");
-			current = current.next;
-		}
+    }
+	
+	public void deleteAtHead() {
+		head = head.next;
 	}
 	
-	public void deletenode(int key) {
+	public void deleteSpecficNode(int key) {
 		Node current = head;
 		Node previous = null;
 		if(head == null) {
@@ -54,13 +66,26 @@ public class SinglyLinkedList {
 		previous.next = current.next;
 	}
 	
+	public void display() {
+		Node current = head;
+		if (head == null) {
+			System.out.println("list is empty");
+			return;
+		}
+		while(current != null) {
+			System.out.println(current.data +" ");
+			current = current.next;
+		}
+	}
+	
 	public static void main(String[] args) {
 		SinglyLinkedList node = new SinglyLinkedList();
 		node.insertnode(5);
 		node.insertnode(4);
 		node.insertnode(7);
-		node.display();
-		node.deletenode(4);
+		node.insertnode(6);
+		node.insertAtPosition(1, 9);
+		node.insertAtPosition(4, 8);
 		node.display();
 	}
 }

@@ -1,15 +1,16 @@
-package pratice_coding;
-
 public class QueueUsingLinkedList {
-	class Node{
+	class Node {
 		int data;
 		Node next;
-		Node(int data){
+
+		Node(int data) {
 			this.data = data;
 			this.next = null;
 		}
 	}
-	Node front,rear = null;
+
+	Node front, rear = null;
+
 	public void enqueue(int item) {
 		Node newNode = new Node(item);
 		if (rear == null) {
@@ -19,19 +20,20 @@ public class QueueUsingLinkedList {
 		rear.next = newNode;
 		rear = newNode;
 	}
+
 	public void dequeue() {
 		if (front == null)
-            return;
-		Node temp = front;
-        front = front.next;
-        if (front == null)
-            rear = null;
-		
+			return;
+		front = front.next;
+		if (front == null)
+			rear = null;
+
 	}
+
 	public void display() {
 		if (front == null)
 			return;
-		while(front != null) {
+		while (front != null) {
 			System.out.println(front.data);
 			front = front.next;
 		}

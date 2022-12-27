@@ -4,19 +4,19 @@
 
 #### This algorithm is like settling heavy element at bottom.
 
-####  Here is an example of how the bubble sort algorithm works, using the following list of numbers as an example: [8, 5, 3, 1, 9, 6, 0, 7, 4, 2]
+####  Here is an example of how the bubble sort algorithm works, using the following list of numbers as an example: </br> `[8, 5, 3, 1, 9, 6, 0, 7, 4, 2]`
 
 1. The algorithm starts by comparing the first two elements (8 and 5) and swapping them if they are in the wrong order. In this case, 5 is less than 8, so they are swapped:
-[5, 8, 3, 1, 9, 6, 0, 7, 4, 2]
+</br> `[5, 8, 3, 1, 9, 6, 0, 7, 4, 2]`
 
 2. It then compares the second and third elements (8 and 3) and swaps them if they are in the wrong order. In this case, 3 is less than 8, so they are swapped:
-[5, 3, 8, 1, 9, 6, 0, 7, 4, 2]
+</br> `[5, 3, 8, 1, 9, 6, 0, 7, 4, 2]`
 
 3. It continues this process until it reaches the end of the list, at which point the largest element will have "bubbled" to the end of the list. After the first pass, the list looks like this:
-[5, 3, 1, 8, 9, 6, 0, 7, 4, 2]
+</br> `[5, 3, 1, 8, 9, 6, 0, 7, 4, 2]`
 
 4. The algorithm repeats this process for the remaining passes until the list is fully sorted. After all passes are complete, the final sorted list is:
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+</br> `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
 
 #### I hope this example helps to clarify how the bubble sort algorithm works. Let me know if you have any questions!
 
@@ -24,8 +24,8 @@
 
 <table>
     <tr>
-        <th>Time Complexity:<th>
-        <th> 0(n^2)<th>
+        <th>Time Complexity:</th>
+        <th> 0(n^2)</th>
     <tr>
 </table>
 

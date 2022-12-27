@@ -14,8 +14,8 @@
 
 <table>
     <tr>
-        <th>Time Complexity:<th>
-        <th> 0(n)<th>
+        <th>Time Complexity:</th>
+        <th> 0(n)</th>
     <tr>
 </table>
 

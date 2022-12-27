@@ -4,19 +4,19 @@
 
 #### After Comparing element to the left shift elements to the right to make room to insert a value.
 
-#### Here is an example of how the insertion sort algorithm works, using the following list of numbers as an example: [8, 5, 3, 1, 9, 6, 0, 7, 4, 2]
+#### Here is an example of how the insertion sort algorithm works, using the following list of numbers as an example: </br> `[8, 5, 3, 1, 9, 6, 0, 7, 4, 2]`
 
 1. The algorithm starts by setting the first element (8) as the sorted portion of the list and the rest of the elements as the unsorted portion. The sorted portion is shown in bold, and the unsorted portion is shown in parentheses:
-[8, (5, 3, 1, 9, 6, 0, 7, 4, 2)]
+</br> `[8, (5, 3, 1, 9, 6, 0, 7, 4, 2)]`
 
 2. It then selects the first element of the unsorted portion (5) and compares it to the elements in the sorted portion. Since 5 is greater than the first element (8) in the sorted portion, it shifts 8 to the right and inserts 5 in its place:
-[5, 8, (3, 1, 9, 6, 0, 7, 4, 2)]
+</br> `[5, 8, (3, 1, 9, 6, 0, 7, 4, 2)]`
 
 3. It then selects the next element of the unsorted portion (3) and compares it to the elements in the sorted portion. Since 3 is less than the first element (5) in the sorted portion, it shifts 5 to the right and inserts 3 in its place:
-[3, 5, 8, (1, 9, 6, 0, 7, 4, 2)]
+</br> `[3, 5, 8, (1, 9, 6, 0, 7, 4, 2)]`
 
 4. The algorithm continues this process until all elements have been inserted into the sorted portion of the list. After all elements have been inserted, the final sorted list is:
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+</br> `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
 
 #### I hope this example helps to clarify how the insertion sort algorithm works.  Let me know if you have any questions!
 

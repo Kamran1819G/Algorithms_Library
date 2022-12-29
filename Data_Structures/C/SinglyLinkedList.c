@@ -1,101 +1,99 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 struct node
 {
     int data;
-    struct node *link;
+    struct node *next;
 };
-struct node *start = NULL;
-struct node *createnode()
+
+struct node *head = NULL;
+
+void insertatbeg(int data)
 {
-    struct node *t;
-    t = (struct node *)malloc(sizeof(struct node));
-    return (t);
+    struct node *newnode = (struct node *)malloc(sizeof(struct node));
+    newnode->data = data;
+    newnode->next = head;
+    head = newnode;
 }
 
-// function to insert node to first position
-void insertfirst()
+void insertatend(int data)
 {
-    struct node *p;
-    p = createnode();
-    printf("\n Enter the number to insert: ");
-    scanf("%d", &p->data);
-    p->link = NULL;
-    if (start == NULL)
+    struct node *newnode = (struct node *)malloc(sizeof(struct node));
+    newnode->data = data;
+    newnode->next = NULL;
+    if (head == NULL)
     {
-        start = p;
+        head = newnode;
     }
     else
     {
-        p->link = start;
-        start = p;
-    }
-}
-
-void deletionfirst()
-{
-    struct node *t;
-    if (start == NULL)
-    {
-        printf("\n list is empty");
-    }
-    else
-    {
-        struct node *p;
-        p = start;
-        start = start->link;
-        free(p);
-    }
-}
-
-void viewlist()
-{
-    struct node *p;
-    if (start == NULL)
-    {
-        printf("\n list is empty");
-    }
-    else
-    {
-        p = start;
-        printf("\n Linked List : ");
-        while (p != NULL)
+        struct node *temp = head;
+        while (temp->next != NULL)
         {
-            printf("%d ", p->data);
-            p = p->link;
+            temp = temp->next;
         }
-        printf("\n");
+        temp->next = newnode;
+    }
+}
+
+void deleteatbeg()
+{
+    if (head == NULL)
+    {
+        printf("List is empty");
+    }
+    else
+    {
+        struct node *temp = head;
+        head = head->next;
+        free(temp);
+    }
+}
+
+void deleteatend()
+{
+    if (head == NULL)
+    {
+        printf("List is empty");
+    }
+    else
+    {
+        struct node *temp = head;
+        while (temp->next->next != NULL)
+        {
+            temp = temp->next;
+        }
+        free(temp->next);
+        temp->next = NULL;
+    }
+}
+
+void display()
+{
+    struct node *temp = head;
+    while (temp != NULL)
+    {
+        printf("%d ", temp->data);
+        temp = temp->next;
     }
 }
 
 int main()
 {
-    int n;
-    do
-    {
-        printf("\n 1.Add value at first location.");
-        printf("\n 2.View value.");
-        printf("\n 3.Delete value at first location.");
-        printf("\n 9.Exit");
-        printf("\n Enter your choice: ");
-        scanf("%d", &n);
-        switch (n)
-        {
-        case 1:
-            insertfirst();
-            break;
-        case 2:
-            viewlist();
-            break;
-        case 3:
-            deletionfirst();
-            break;
-        case 9:
-            printf("\n Successfully Exited");
-            exit(0);
-        default:
-            printf("\n Invaild Choice, please Try Again");
-        }
-    } while (n < 9);
-    return 0;
+    insertatbeg(10);
+    insertatbeg(20);
+    insertatbeg(30);
+    insertatbeg(40);
+    insertatbeg(50);
+    insertatend(60);
+    insertatend(70);
+    insertatend(80);
+    insertatend(90);
+    insertatend(100);
+    display();
+    printf("\n");
+    deleteatbeg();
+    deleteatend();
+    display();
 }

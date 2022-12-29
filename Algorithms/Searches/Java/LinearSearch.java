@@ -1,4 +1,4 @@
-public class Linear_Search {
+public class LinearSearch {
     public static void main(String args[]) {
         // linear search = Iterate through a collection one element at a time
         int[] array = { 9, 1, 8, 2, 7, 3, 6, 4, 5 };

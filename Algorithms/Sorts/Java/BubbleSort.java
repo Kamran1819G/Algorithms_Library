@@ -1,6 +1,4 @@
-package Sorts.Java;
-
-public class Bubble_Sort {
+public class BubbleSort {
     // bubble sort = pairs of adjacent elements are compared, and the elements
     // swapped if they are not in order.
 

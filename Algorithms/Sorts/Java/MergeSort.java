@@ -1,6 +1,4 @@
-package Sorts.Java;
-
-public class Merge_Sort {
+public class MergeSort {
     public static void main(String args[]) {
         // merge sort = recursively divide array in 2, sort, re-combine
         // run-time complexity = O(n Log n)

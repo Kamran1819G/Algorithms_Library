@@ -1,6 +1,4 @@
-package Sorts.Java;
-
-public class Selection_Sort {
+public class SelectionSort {
 
     // selection sort = search through an array and keep track of the minimum value
     // during

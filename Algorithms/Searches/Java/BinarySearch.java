@@ -1,4 +1,4 @@
-public class Binary_Search {
+public class BinarySearch {
 
     // binary search = Search algorithm that finds the position
     // of a target value within a sorted array.

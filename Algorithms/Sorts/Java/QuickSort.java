@@ -1,6 +1,4 @@
-package Sorts.Java;
-
-public class Quick_Sort {
+public class QuickSort {
 
     public static void main(String args[]) {
         // quick sort = moves smaller elements to left of a pivot.

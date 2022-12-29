@@ -1,4 +1,4 @@
-public class Interpolation_Search {
+public class InterpolationSearch {
 
     public static void main(String args[]) {
 
